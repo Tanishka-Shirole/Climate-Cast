@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import humidityIcon from "../assets/humidity.png";
 import windIcon from "../assets/wind.png";
 
+// the app is running well 
+
 const ClimateBody = () => {
   const [city, setCity] = useState("");
   const [error, setError] = useState(null);
